@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code, datasets, and supplementary materials for the **Health-wise Explainable Movie Recommender System (HEMRS)**, a research project developed as part of a thesis to enhance movie recommendations by integrating collaborative filtering, content-based filtering, sentiment analysis, and explainable AI. HEMRS prioritizes health-aligned recommendations (e.g., uplifting or calming movies to improve mood/stress) and provides interpretable explanations using LIME, addressing challenges like the cold start problem, data sparsity, and user trust (Schedl et al., 2018; Ribeiro et al., 2016). The system was evaluated using the MovieLens 1M and IMDB datasets, achieving an RMSE of 0.72 and 85% user satisfaction for explainability, as detailed in the thesis (Chapter 4). This repository is intended for researchers and developers interested in reproducing the results or extending the work.
+This repository contains the source code, datasets, and supplementary materials for the **Health-wise Explainable Movie Recommender System (HEMRS)**, a research project developed as part of a thesis to enhance movie recommendations by integrating collaborative filtering, content-based filtering, sentiment analysis, and explainable AI. HEMRS prioritizes health-aligned recommendations (e.g., uplifting or calming movies to improve mood/stress) and provides interpretable explanations using LIME, addressing challenges like the cold start problem, data sparsity, and user trust. The system was evaluated using the MovieLens 1M and IMDB datasets, achieving an accuracy of 94% and 85% user satisfaction for explainability, as detailed in the thesis (Chapter 4). This repository is intended for researchers and developers interested in reproducing the results or extending the work.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ To run the HEMRS code, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/HEMRS-Research/HEMRS.git
+   git clone https://github.com/kano-analyst/HEMRS.git
    cd HEMRS
    ```
 
@@ -139,18 +139,12 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/new-feature`).
 5. Open a pull request.
 
-Report issues or suggestions via the [Issues](https://github.com/HEMRS-Research/HEMRS/issues) tab.
+Report issues or suggestions via the [Issues](https://github.com/kano-analyst/HEMRS/issues) tab.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. Users are free to use, modify, and distribute the code and datasets with proper attribution.
 
-## References
-
-- Harper, F. M., & Konstan, J. A. (2015). The MovieLens Datasets: History and Context. *ACM Transactions on Interactive Intelligent Systems*, 5(4), 1–19. https://doi.org/10.1145/2827872
-- Schedl, M., Flexer, A., & Urbano, J. (2018). Emotion-aware Music Recommendation. *Proceedings of the ACM Conference on Recommender Systems*, 3240323. https://dl.acm.org/doi/10.1145/3240323.3240344
-- Ribeiro, M. T., Saadi, D., & Guestrin, C. (2016). Why Should I Trust You? Explaining the Predictions of Any Classifier. *arXiv preprint arXiv:1602.04938*. https://arxiv.org/abs/1602.04938
-
 ## Contact
 
-For questions or support, contact the research team via [GitHub Issues](https://github.com/HEMRS-Research/HEMRS/issues) or email (hemrs.research@example.com).
+For questions or support, contact the research team via [GitHub Issues](https://github.com/kano-analyst) or email (atgarba.it@buk.edu.ng).
